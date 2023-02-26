@@ -13,7 +13,9 @@ This project is a PHP port of the popular mpociot/documentarian which is a port 
 # Documentation for documentarian
 
 ### Installation
-'composer require ayarigab/documentarian'
+```
+composer require ayarigab/documentarian
+```
 
 ### In depth documentation
 For further documentation, read the [documentation](http://marcelpociot.de/documentarian/installation).
