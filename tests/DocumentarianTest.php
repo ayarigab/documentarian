@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Collection;
-use Mpociot\Documentarian\Documentarian;
+use Ayarigab\Documentarian\Documentarian;
 
 function glob_recursive($pattern, $flags = 0)
 {

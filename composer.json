@@ -1,12 +1,12 @@
 {
-  "name": "mpociot/documentarian",
+  "name": "ayarigab/documentarian",
   "description": "",
   "keywords": [],
   "license": "Apache 2",
   "authors": [
     {
-      "name": "Marcel Pociot",
-      "email": "m.pociot@gmail.com"
+      "name": "Ayariga Bright",
+      "email": "jessybright66@gmail.com"
     }
   ],
   "autoload": {
@@ -14,16 +14,16 @@
       "includes/helpers.php"
     ],
     "psr-4": {
-      "Mpociot\\Documentarian\\": "src/"
+      "Ayarigab\\Documentarian\\": "src/"
     }
   },
   "bin": [
     "documentarian"
   ],
   "require": {
-    "php": ">=5.5.9",
+    "php": "^7.3|^8.0",
     "mnapoli/silly": "~1.0",
-    "illuminate/view": "5.*|^6.0|^7.0|^8.0",
+    "illuminate/view": "^7.0|^8.75|^9.0",
     "mnapoli/front-yaml": "^1.5",
     "windwalker/renderer": "3.*"
   },
